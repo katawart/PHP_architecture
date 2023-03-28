@@ -1,0 +1,103 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPWebProject1</Name>
+    <ProjectGuid>{83dd27c9-b96d-49e5-b9a0-5b22c07c7979}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Content\article tables.sql" />
+    <Compile Include="Classes\Content\Articles.php" />
+    <Compile Include="Classes\Content\blog tables.sql" />
+    <Compile Include="Classes\Content\Blogs.php" />
+    <Compile Include="Classes\Content\Clients.php" />
+    <Compile Include="Classes\Content\Content.php" />
+    <Compile Include="Classes\Content\ContentController.php" />
+    <Compile Include="Classes\Content\FileHandler.php" />
+    <Compile Include="Classes\Content\Properties.php" />
+    <Compile Include="Classes\Databases\DatabaseHandler.php" />
+    <Compile Include="Classes\ppm\Clients.php" />
+    <Compile Include="Classes\ppm\ppmController.php" />
+    <Compile Include="Classes\ppm\Properties.php" />
+    <Compile Include="Classes\Profiles\Javascript\ProfileValidation.php" />
+    <Compile Include="Classes\Profiles\SQL Scripts\home user tables.sql" />
+    <Compile Include="Classes\Profiles\SQL Scripts\User Tables.sql" />
+    <Compile Include="Classes\Profiles\ProfileController.php" />
+    <Compile Include="Classes\Profiles\Profiles.php" />
+    <Compile Include="Classes\Profiles\UserProfiles.php" />
+    <Compile Include="Classes\Security\BasicSecurity.php" />
+    <Compile Include="Classes\Security\DataCleaner.php" />
+    <Compile Include="Classes\Security\Decrypter.php" />
+    <Compile Include="Classes\Security\Encrypter.php" />
+    <Compile Include="Classes\Security\SecurityController.php" />
+    <Compile Include="Classes\Security\SqlCleaner.php" />
+    <Compile Include="Classes\BlankClass.php" />
+    <Compile Include="Site\content\blank.txt" />
+    <Compile Include="Site\content\home.txt" />
+    <Compile Include="Site\content\restricted.txt" />
+    <Compile Include="Site\Design\classesFileStructure.jpg" />
+    <Compile Include="Site\Design\classesFileStructure.uxf" />
+    <Compile Include="Site\Design\creatBlogFlow.jpg" />
+    <Compile Include="Site\Design\creatBlogFlow.uxf" />
+    <Compile Include="Site\Design\createForumFlow.uxf" />
+    <Compile Include="Site\Design\fileStructure.jpg" />
+    <Compile Include="Site\Design\fileStructure.uxf" />
+    <Compile Include="Site\Design\openBlogFlow.jpg" />
+    <Compile Include="Site\Design\openBlogFlow.uxf" />
+    <Compile Include="Site\images\logo\hunt_IT.jpg" />
+    <Compile Include="Site\images\logo\webSolutions.gif" />
+    <Compile Include="Site\images\logo\webSolutions.ico" />
+    <Compile Include="Site\images\logo\webSolutions.jpg" />
+    <Compile Include="Site\images\logo\webSolutions.xcf" />
+    <Compile Include="Site\images\navigation\divider.png" />
+    <Compile Include="Site\images\navigation\divider.xcf" />
+    <Compile Include="Site\images\navigation\navBar.png" />
+    <Compile Include="Site\images\navigation\navBar.xcf" />
+    <Compile Include="Site\images\navigation\navBarHover.png" />
+    <Compile Include="Site\images\navigation\navBarHover.xcf" />
+    <Compile Include="Site\images\huntitBg.jpg" />
+    <Compile Include="Site\images\webSolutions.ico" />
+    <Compile Include="Site\stylesheet\phonestylesheet.css" />
+    <Compile Include="Site\stylesheet\stylesheet.css" />
+    <Compile Include="Site\stylesheet\stylesheet2.css" />
+    <Compile Include="Site\stylesheet\tabletstylesheet.css" />
+    <Compile Include="Site\blank.php" />
+    <Compile Include="Site\blogs.php" />
+    <Compile Include="Site\coordinator.php" />
+    <Compile Include="Site\favicon.ico.jpg" />
+    <Compile Include="Site\home.html" />
+    <Compile Include="Site\home.php" />
+    <Compile Include="Site\pageHeaders.php" />
+    <Compile Include="Site\pure.html" />
+    <Compile Include="Site\register.php" />
+    <Compile Include="Site\writeBlog.php" />
+    <Compile Include="create tables.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\Content" />
+    <Folder Include="Classes\Databases" />
+    <Folder Include="Classes\ppm" />
+    <Folder Include="Classes\Profiles\Javascript" />
+    <Folder Include="Classes\Profiles\SQL Scripts" />
+    <Folder Include="Classes\Profiles" />
+    <Folder Include="Classes\Security" />
+    <Folder Include="Classes" />
+    <Folder Include="Site\content" />
+    <Folder Include="Site\Design" />
+    <Folder Include="Site\images\logo" />
+    <Folder Include="Site\images\navigation" />
+    <Folder Include="Site\images" />
+    <Folder Include="Site\New folder" />
+    <Folder Include="Site\stylesheet" />
+    <Folder Include="Site" />
+  </ItemGroup>
+</Project>
